@@ -21,23 +21,23 @@ See [GETTING_STARTED.md](GETTING_STARTED.md) for detailed setup instructions.
 
 ## Structure
 
-```
+```text
 claude-cooks/
-├── core/                     # Your household context
+├── core/                    # Your household context
 │   ├── profile.md           # Who you cook for, dietary requirements, skills
 │   ├── equipment.md         # Kitchen inventory and capabilities
 │   ├── pantry-staples.md    # Shelf-stable items typically on hand
 │   ├── fridge-staples.md    # Refrigerated items typically on hand
 │   └── freezer-staples.md   # Frozen items typically on hand
-├── shopping/                 # Sourcing and logistics
+├── shopping/                # Sourcing and logistics
 │   ├── sources.md           # Store hierarchy and specialty callouts
 │   └── errand-strategy.md   # Batch shopping and route optimization
-├── contexts/                 # Situational cooking modes
+├── contexts/                # Situational cooking modes
 │   ├── weeknight-solo.md    # Quick meals after work
 │   ├── weekend-projects.md  # Ambitious cooking sessions
 │   ├── meal-prep.md         # Batch cooking for the week
 │   └── entertaining.md      # Hosting guests
-└── output/                   # Response formatting preferences
+└── output/                  # Response formatting preferences
     ├── recipe-format.md     # Recipe structure and shopping lists
     └── tone-and-style.md    # Voice and creative parameters
 ```
@@ -70,3 +70,7 @@ For households with multiple people, list everyone's critical restrictions — t
 ## License
 
 [MIT](LICENSE)
+
+## Photo credit
+
+Photo by Ella Olsson on [Unsplash](https://unsplash.com/photos/vegetable-salad-KPDbRyFOTnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
